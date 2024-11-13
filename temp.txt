@@ -1,0 +1,40 @@
+Project Structure
+app.py: Main application file, likely handling the Flask server.
+
+decrypter.py: Contains decryption functions.
+
+divider.py: Handles splitting the file into parts.
+
+encrypter.py: Contains encryption functions.
+
+requirements.txt: Lists all the dependencies needed for your project.
+
+restore.py: Possibly handles combining decrypted parts.
+
+runtime.txt: Usually contains environment information.
+
+temp.txt: Temporary storage, possibly for intermediate data.
+
+tools.py: Utility functions used across the project.
+
+Templates Directory
+download.html: HTML file for download page.
+
+index.html: Main landing page HTML file.
+
+restore_success.html: HTML for success message after restoring a file.
+
+success.html: HTML for success message after encrypting a file.
+
+upload.html: HTML for the file upload page.
+
+Next Steps
+To integrate cloud storage, follow the steps outlined previously to modify your app.py, encrypter.py, and decrypter.py to handle AWS S3 operations.
+
+Set Up AWS S3 Bucket: Create a bucket on AWS S3 for storing your encrypted files.
+
+Install Boto3: Make sure Boto3 is installed for interacting with AWS S3.
+
+Update Encryption Process: Upload encrypted files to S3 after encryption.
+
+Update Decryption Process: Download encrypted files from S3 before decryption.
