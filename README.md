@@ -48,7 +48,7 @@ Restoring the File:
 10Provide the reconstructed file for the user to download.
 
 How to Run
-Note: This project is based on Python 2.7.15. Running it on any other platform might create compatibility issues.
+Note: This project is based on Python latest version. Running it on any other platform might create compatibility issues.
 
 Steps:
 Install Requirements
