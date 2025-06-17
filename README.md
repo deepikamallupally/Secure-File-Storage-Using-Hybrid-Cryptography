@@ -72,6 +72,6 @@ If you encounter any bugs or have suggestions for improving the project, feel fr
 
 Deepika Mallupally
 
-LinkedIn: Deepika Mallupally's LinkedIn
+LinkedIn: https://www.linkedin.com/in/deepika-mallupally-5a52b5282/
 
 Note: The project has encountered a bug due to updates in the cryptography library. If you are interested in collaborating to improve this project, feel free to reach out via the LinkedIn link above.
